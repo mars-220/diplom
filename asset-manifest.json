@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76fbadfd.css",
+    "main.js": "/static/js/main.0f198191.js",
+    "static/media/flower-pink.jpg": "/static/media/flower-pink.547638367b2fada2dc10.jpg",
+    "static/media/bow-pink.jpg": "/static/media/bow-pink.c3fce8fb847fc8e81f3f.jpg",
+    "index.html": "/index.html",
+    "main.76fbadfd.css.map": "/static/css/main.76fbadfd.css.map",
+    "main.0f198191.js.map": "/static/js/main.0f198191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76fbadfd.css",
+    "static/js/main.0f198191.js"
+  ]
+}

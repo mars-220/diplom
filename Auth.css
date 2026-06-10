@@ -1,0 +1,99 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(255, 182, 193, 0.22), transparent 22%),
+              radial-gradient(circle at bottom right, rgba(255, 105, 180, 0.18), transparent 20%),
+              linear-gradient(180deg, #1f0214 0%, #090006 100%);
+  padding: 24px;
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 460px;
+  padding: 38px;
+  background: rgba(26, 5, 26, 0.96);
+  border: 1px solid rgba(255, 182, 193, 0.14);
+  border-radius: 32px;
+  box-shadow: 0 28px 100px rgba(255, 105, 180, 0.14);
+}
+
+.auth-form h2 {
+  margin: 0 0 24px;
+  font-size: 2rem;
+  letter-spacing: -0.04em;
+  color: #ffe5f2;
+  text-shadow: 0 0 18px rgba(255, 105, 180, 0.28);
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #f5c0dc;
+  font-size: 0.95rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 182, 193, 0.26);
+  border-radius: 18px;
+  background: rgba(24, 10, 30, 0.85);
+  color: #ffe8ff;
+  font-size: 15px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: rgba(255, 105, 180, 0.95);
+  box-shadow: 0 0 0 4px rgba(255, 105, 180, 0.14);
+}
+
+.password-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  color: #f5c0dc;
+}
+
+.password-toggle input {
+  accent-color: #ff7fcf;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #ff6ec7, #ff9dd7);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 38px rgba(255, 105, 180, 0.3);
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #ffb0dd;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-form p {
+  margin: 18px 0 0;
+  text-align: center;
+  color: #f5c0dc;
+}
